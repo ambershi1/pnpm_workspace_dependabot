@@ -23,7 +23,7 @@ updates:
         versions: ["17.x","18.x","16.x"]
     commit-message:
       prefix: "chore(welcome): "
-    target-branch: "feat/AX-4278"
+    target-branch: "dev"
     labels:
       - "change/standard"
       - "dependencies"
