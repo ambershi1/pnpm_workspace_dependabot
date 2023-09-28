@@ -11,10 +11,6 @@
     "start:standalone": "webpack serve --env standalone"
   },
   "dependencies": {
-    "@liveramp/auth": "^2.0.0",
-    "@liveramp/harness-core": "0.8.0",
-    "@liveramp/launch-darkly": "1.0.1",
-    "@liveramp/motif": "^2.3.1",
     "launchdarkly-react-client-sdk": "^3.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

@@ -11,9 +11,6 @@
     "start": "webpack serve",
     "start:standalone": "webpack serve --env standalone"
   },
-  "browserslist": [
-    "extends @liveramp/browserslist-config-common"
-  ],
   "dependencies": {
     "lodash.debounce": "^4.0.8",
     "@trycourier/react-provider": "4.2.3",
@@ -22,9 +19,6 @@
     "date-fns": "^2.30.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@liveramp/auth": "^2.0.0",
-    "@liveramp/harness-core": "0.9.0",
-    "@liveramp/motif": "^2.3.1",
     "chroma-js": "^2.0.6",
     "clsx": "^1.1.1",
     "launchdarkly-react-client-sdk": "^3.0.1",
