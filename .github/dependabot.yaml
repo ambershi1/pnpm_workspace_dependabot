@@ -2,7 +2,7 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    versioning-strategy: auto
+    versioning-strategy: increase
     schedule:
       interval: "daily"
     open-pull-requests-limit: 12
