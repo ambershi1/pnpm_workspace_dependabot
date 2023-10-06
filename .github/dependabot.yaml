@@ -25,6 +25,9 @@ updates:
           # ecosystem. Note: using "*" may open a large pull request
           # Define patterns to exclude dependencies from the group (based on
           # dependency name)
+          update-types:
+            - "minor"
+            - "patch"
     commit-message:
       prefix: "chore(welcome): "
     target-branch: "dev"
