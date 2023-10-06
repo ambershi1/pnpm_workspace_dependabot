@@ -15,6 +15,16 @@ updates:
         versions: ["17.x","18.x", "16.x"]
       - dependency-name: "react-dom"
         versions: ["17.x","18.x","16.x"]
+    groups:
+       # Specify a name for the group, which will be used in pull request titles
+       # and branch names
+       dev-dependencies:
+         patterns:
+           - "*"
+          # A wildcard that matches all dependencies in the package
+          # ecosystem. Note: using "*" may open a large pull request
+          # Define patterns to exclude dependencies from the group (based on
+          # dependency name)
     commit-message:
       prefix: "chore(welcome): "
     target-branch: "dev"
