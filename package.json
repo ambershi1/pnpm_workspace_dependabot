@@ -27,9 +27,6 @@
     "node": ">=16",
     "pnpm": ">=7"
   },
-  "browserslist": [
-    "extends @liveramp/browserslist-config-common"
-  ],
   "devDependencies": {
     "@liveramp/browserslist-config-common": "0.0.1",
     "@commitlint/cli": "^17.2.0",
