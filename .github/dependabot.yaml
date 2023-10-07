@@ -7,7 +7,6 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 12
     ignore:
-      - dependency-name: "@liveramp/*"
       - dependency-name: "@trycourier/react-hooks"
       - dependency-name: "@trycourier/react-provider"
       - dependency-name: "eslint"
